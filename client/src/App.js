@@ -1,7 +1,7 @@
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Login from './login'
-import Dashboard from "./Dashboard"
+import Login from './Login/login'
+import Dashboard from "./components/Dashboard"
 
 const loginCode = new URLSearchParams(window.location.search).get('code')
 
